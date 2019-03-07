@@ -1,0 +1,469 @@
+/* Header Styling */
+.header {
+    margin: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border-bottom:  #cccccc solid;
+    position: fixed;        
+    padding: 0px;
+    height: 70px
+  }
+
+  a {
+    text-decoration: none;
+    color:  #ffffff;
+}
+
+/* Profile Name Styling */
+.heading {
+    margin: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    margin-left: 17%;
+    font-size: 22px;
+    width: 180px;
+    height: 31px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+ }
+
+ /* Navigation Bar */
+ nav h5{
+    color: #cccccc;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 33px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    float: right;
+
+}
+
+/* Nav Bar Linking */
+.navi {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+/* Link Hovering */
+
+.navi:hover{
+    color: #4aaaa5
+}
+   
+/* Nav Links Positioning */
+#left {
+    padding-left: 10px;
+    margin-right: 18%;
+    
+  }
+  
+  #middle {
+    padding-left: 10px;
+    padding-right: 48px
+  }
+  
+  #right {
+
+    padding-right: 30px;
+    border-width: 2px
+  }
+
+/* Separation lines in the nav bar */
+  .vl {
+    border-left: 1px solid #dddddd;
+   
+  }
+
+
+ .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /*
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+*/
+.wrapper {
+  /* Box-model */
+  width: 980px;
+
+  /* Positioning */
+  margin: 40px auto;
+
+}
+
+  /* positioning of the body */
+  .box-set {
+    position: relative;
+    margin-top: 30px;
+    width: 960px;
+    height:470px;
+    background: #ffffff;
+  }
+  
+    .box {
+    /* Absolute Position */
+    position: absolute;
+
+    }
+/* Portfolio page - positioning of images */
+    .dogs {
+        top: 22%;
+      }
+      
+      .food {
+        top: 22%;
+        left: 350px;
+      }
+      
+      .travel {
+        top: 22%;
+        left: 650px;
+      }
+      
+      .coding {
+        bottom: 30px;
+      }
+
+      .product {
+        bottom: 30px;
+        left: 350px
+      }
+
+      .business {
+        bottom: 30px;
+        left: 650px;
+      }
+
+/* Portfolio Page - Styling of the text boxes within images */
+      .text-block {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        padding-top: 15px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      }
+    
+/* Portfolio Page - Positioning of the text within the images */
+      .dog1 {
+        top: 43%;
+      }
+      
+      .food1 {
+        top: 43%;
+        left: 350px;
+      }
+      
+      .travel1 {
+        top: 43%;
+        left: 650px;
+      }
+      
+      .coding1 {
+        bottom: 35px;
+      }
+
+      .product1 {
+        bottom: 35px;
+        left: 350px
+      }
+
+      .business1 {
+        bottom: 35px;
+        left: 650px;
+      }
+
+/* About Page - Profile pic positioning */
+    .profilepic {
+        top: 20%;
+        margin-top: 15px;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+        float: left;
+        }
+
+/* About Page - backgroung text positioning */
+    .my-background {
+        top: 15%;
+        margin-left: 15px;
+        margin-right: 20px;
+        padding-left: 10px;
+        line-height: 2;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777
+        }
+/* All pages - Body Title styling */
+  #about-me, #contact, #portfolio {
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif ;
+    color: #4aaaa5;
+    width: 170px;
+    height: 40px;
+  }
+/* Horizontal bar */
+  hr {
+      width: 96%;
+      color:#cccccc solid
+  }
+
+  /* Contact Form - Input Names */
+  .input-id {
+    margin: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: 200;
+    font-family: 'Georgia', Times, Times New Roman, serif ;
+    color: #777777;
+    width: 170px;
+  }
+
+  /* Contact Form - Text Boxes */
+  .text1 {
+   
+    margin-left: 19px;
+    width: 900px;
+    height: 20px;
+  }
+
+  /* Contact Form - Message Box */
+  .text2 {
+    margin-left: 19px;
+    width: 900px;
+    height: 170px;
+    border-color: #dddddd
+  }
+ 
+  /* Contact Form - Submit Button Styling */
+  .submit{
+    margin-left: 16px;
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    width: 80px;
+    height: 30px;
+    text-align: center
+  }
+
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    width: 100%;
+    padding-top: 5px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #666666;
+    color: #ccc;
+    text-align: center;
+    border-top: #4aaaa5 solid;
+    overflow: hidden; 
+    position: fixed;
+    margin: 0px;
+  }
+
+  
+  /*
+  These rules take effect when the browser's width
+  is 980px.
+*/
+  @media screen and (max-width: 980px) {
+    .heading, .box-set {
+    margin-left: 5%;
+    }
+
+    .box-set {
+      width: 600px;
+      height: 600px;
+      margin-bottom: 200px
+    }
+
+    #left {
+      margin-right: 5%
+    }
+
+    /* Contact form changes */
+    .text1 {
+      width: 550px;
+      height: 20px;
+    }
+  
+    .text2 {
+      width: 550px;
+      height: 220px;
+    }
+  
+    /* Portfolio Page - image changes */
+    .dogs {
+      top: 20%;
+    }
+    
+    .food {
+      top: 20%;
+      left: 350px;
+    }
+    
+    
+    .coding {
+      bottom: 50px;
+      
+    }
+
+    .travel {
+      top: 67%;
+      left: 350px;
+    }
+
+    .travel1 {
+      top: 87%;
+      left: 350px;
+    }
+    /* The wrapper's width will be 980px */
+    .wrapper {
+      width: 980px;
+    }
+  }
+
+  /*
+  These rules take effect when the browser's width
+  is 768px .
+*/
+
+@media screen and (max-width: 768px) {
+  .heading, .box-set {
+  margin-left: 5%;
+  }
+
+  .box-set {
+    width: 710px;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+
+  #left {
+    margin-right: 5%
+  }
+
+  .text1 {
+    width: 660px;
+    height: 20px;
+  }
+
+  .text2 {
+    width: 660px;
+    height: 230px;
+  }
+
+  .dogs, .food, .coding, .travel {
+    width: 250px;
+    height: 200px
+  }
+  
+  .travel {
+    top: 59%
+  }
+
+  .dog1, .food1, .coding1, .travel1 {
+    width: 250px;
+  }
+
+  /* The wrapper's width will be 768px */
+  .wrapper {
+    width: 768px;
+  }
+}
+
+/*
+  These rules take effect when the browser's width
+  is 640px.
+*/
+@media screen and (max-width: 640px) {
+.header {
+  height: 120px;
+  position: fixed
+}
+
+.heading {
+  margin: 0;
+  padding-left: 240px;
+  padding-right: 240px
+  }
+
+  nav h5 {
+    margin-top: 10px
+  }
+
+  .box-set {
+    width: 585px;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-left: 5%;
+  }
+
+  #left {
+    margin-right: 35%
+  }
+
+  .text1 {
+    width: 535px;
+    height: 20px;
+  }
+
+  .text2 {
+    width: 535px;
+    height: 270px;
+  }
+  .dogs, .food, .coding, .travel {
+    width: 220px;
+    height: 200px
+  }
+
+
+  .dog1, .food1, .coding1, .travel1 {
+    width: 220px;
+  }
+
+  .coding1 {
+    bottom: 38px
+}
+
+  .travel1 {
+    top: 85%
+  }
+
+
+
+
+  /* The wrapper's width will be 640px */
+  .wrapper {
+    width: 640px;
+  }
+
+ 
+}
